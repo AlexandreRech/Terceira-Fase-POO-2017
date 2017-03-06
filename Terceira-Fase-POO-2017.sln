@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Unidade 1", "1. Unidade 1", "{B2043769-E987-4EC7-8B0A-EE4FECDA5720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Conteúdo", "1.1 Conteúdo", "{74633DF8-B847-4631-9402-01239D179E65}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 1\Especificacao-Robo.pdf = Material\Unidade 1\Especificacao-Robo.pdf
+		Material\Unidade 1\Lista de Exercício.pdf = Material\Unidade 1\Lista de Exercício.pdf
+		Material\Unidade 1\Unidade 1 - Exercícios Resolvidos.pptx = Material\Unidade 1\Unidade 1 - Exercícios Resolvidos.pptx
+		Material\Unidade 1\Unidade 1 - Resumido.pdf = Material\Unidade 1\Unidade 1 - Resumido.pdf
+		Material\Unidade 1\Unidade 1.pdf = Material\Unidade 1\Unidade 1.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Exemplos", "1.2 Exemplos", "{D9A83239-0B4E-4065-A3F2-125C32EBA609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Exercícios", "1.3 Exercícios", "{A3EC66F9-54AC-4C16-BD51-410E609BD157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade1.Exercicios", "Projetos\Unidade 1\Exercicios\Unidade1.Exercicios\Unidade1.Exercicios.csproj", "{4500016A-D1D1-498F-B07B-4DB43F8120E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidade 2", "Unidade 2", "{C88537A8-24C4-43CF-B83E-3E010C114346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Conteúdo", "2.1 Conteúdo", "{B50B8700-E8CB-42D5-887E-F001E4323D9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Exemplos", "2.2 Exemplos", "{93BABC7C-2C9B-4211-B88A-CB0763DD5305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 Exercícios", "2.3 Exercícios", "{D90832DF-3F7F-49FC-BAE6-267F91F9CBC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4500016A-D1D1-498F-B07B-4DB43F8120E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4500016A-D1D1-498F-B07B-4DB43F8120E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4500016A-D1D1-498F-B07B-4DB43F8120E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4500016A-D1D1-498F-B07B-4DB43F8120E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74633DF8-B847-4631-9402-01239D179E65} = {B2043769-E987-4EC7-8B0A-EE4FECDA5720}
+		{D9A83239-0B4E-4065-A3F2-125C32EBA609} = {B2043769-E987-4EC7-8B0A-EE4FECDA5720}
+		{A3EC66F9-54AC-4C16-BD51-410E609BD157} = {B2043769-E987-4EC7-8B0A-EE4FECDA5720}
+		{4500016A-D1D1-498F-B07B-4DB43F8120E3} = {A3EC66F9-54AC-4C16-BD51-410E609BD157}
+		{B50B8700-E8CB-42D5-887E-F001E4323D9E} = {C88537A8-24C4-43CF-B83E-3E010C114346}
+		{93BABC7C-2C9B-4211-B88A-CB0763DD5305} = {C88537A8-24C4-43CF-B83E-3E010C114346}
+		{D90832DF-3F7F-49FC-BAE6-267F91F9CBC0} = {C88537A8-24C4-43CF-B83E-3E010C114346}
+	EndGlobalSection
+EndGlobal
