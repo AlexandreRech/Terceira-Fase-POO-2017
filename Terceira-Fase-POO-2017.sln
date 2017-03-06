@@ -23,6 +23,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidade 2", "Unidade 2", "{C88537A8-24C4-43CF-B83E-3E010C114346}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Conteúdo", "2.1 Conteúdo", "{B50B8700-E8CB-42D5-887E-F001E4323D9E}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 2\Lista de Exercício.pdf = Material\Unidade 2\Lista de Exercício.pdf
+		Material\Unidade 2\Unidade 2 - Resumido.pptx = Material\Unidade 2\Unidade 2 - Resumido.pptx
+		Material\Unidade 2\Unidade 2.pdf = Material\Unidade 2\Unidade 2.pdf
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Exemplos", "2.2 Exemplos", "{93BABC7C-2C9B-4211-B88A-CB0763DD5305}"
 EndProject
