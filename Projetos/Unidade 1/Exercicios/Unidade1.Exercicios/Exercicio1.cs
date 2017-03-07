@@ -10,7 +10,7 @@ namespace Unidade1.Exercicios
                 (volume = comprimento * largura * altura;)
          */
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             double volume = 0;
 
