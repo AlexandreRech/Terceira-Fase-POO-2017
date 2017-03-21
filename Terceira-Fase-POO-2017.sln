@@ -24,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidade 2", "Unidade 2", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Conteúdo", "2.1 Conteúdo", "{B50B8700-E8CB-42D5-887E-F001E4323D9E}"
 	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 2\Lista de Exercício - Resoluções - OO.pptx = Material\Unidade 2\Lista de Exercício - Resoluções - OO.pptx
 		Material\Unidade 2\Lista de Exercício.pdf = Material\Unidade 2\Lista de Exercício.pdf
 		Material\Unidade 2\Unidade 2 - Resumido.pptx = Material\Unidade 2\Unidade 2 - Resumido.pptx
 		Material\Unidade 2\Unidade 2.pdf = Material\Unidade 2\Unidade 2.pdf
@@ -34,6 +35,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 Exercícios", "2.3 Exercícios", "{D90832DF-3F7F-49FC-BAE6-267F91F9CBC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupiniquimApp", "Projetos\Unidade 1\Exercicios\TupiniquimApp\TupiniquimApp.csproj", "{F53CEB9F-CFB4-42F0-9117-9ABB96309EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupiniquimApp", "Projetos\Unidade 2\Exemplos\TupiniquimApp\TupiniquimApp.csproj", "{9BD26E37-AB90-4EEA-8094-A00E96A5697F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +52,10 @@ Global
 		{F53CEB9F-CFB4-42F0-9117-9ABB96309EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53CEB9F-CFB4-42F0-9117-9ABB96309EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53CEB9F-CFB4-42F0-9117-9ABB96309EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +69,6 @@ Global
 		{93BABC7C-2C9B-4211-B88A-CB0763DD5305} = {C88537A8-24C4-43CF-B83E-3E010C114346}
 		{D90832DF-3F7F-49FC-BAE6-267F91F9CBC0} = {C88537A8-24C4-43CF-B83E-3E010C114346}
 		{F53CEB9F-CFB4-42F0-9117-9ABB96309EE7} = {A3EC66F9-54AC-4C16-BD51-410E609BD157}
+		{9BD26E37-AB90-4EEA-8094-A00E96A5697F} = {93BABC7C-2C9B-4211-B88A-CB0763DD5305}
 	EndGlobalSection
 EndGlobal
