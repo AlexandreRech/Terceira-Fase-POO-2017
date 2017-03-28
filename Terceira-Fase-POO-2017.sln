@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 Exemplos", "3.2 Exemplo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.3 Exercícios", "3.3 Exercícios", "{B49BEB82-C20F-4549-B858-113F3BFC67D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionarioApp", "Projetos\Unidade 3\Exemplos\FuncionarioApp\FuncionarioApp.csproj", "{2E858BB9-1E5E-42DA-A00B-845A035A562B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BD26E37-AB90-4EEA-8094-A00E96A5697F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +92,6 @@ Global
 		{8BB0241A-CC2C-42E6-9291-4A57E1A9EC21} = {2CA83116-2431-495C-BBD3-596293843B05}
 		{2DDACEAE-66A8-40D7-88F9-5752ECEAEC05} = {2CA83116-2431-495C-BBD3-596293843B05}
 		{B49BEB82-C20F-4549-B858-113F3BFC67D1} = {2CA83116-2431-495C-BBD3-596293843B05}
+		{2E858BB9-1E5E-42DA-A00B-845A035A562B} = {2DDACEAE-66A8-40D7-88F9-5752ECEAEC05}
 	EndGlobalSection
 EndGlobal
