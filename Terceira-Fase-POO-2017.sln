@@ -42,6 +42,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Unidade 3", "3. Unidade 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 Conteúdo", "3.1 Conteúdo", "{8BB0241A-CC2C-42E6-9291-4A57E1A9EC21}"
 	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 3\Resolução Prova POO 1 -2017 (Recuperação).pptx = Material\Unidade 3\Resolução Prova POO 1 -2017 (Recuperação).pptx
+		Material\Unidade 3\Resolução Prova POO 1 -2017.pptx = Material\Unidade 3\Resolução Prova POO 1 -2017.pptx
 		Material\Unidade 3\Revisão-Prova-1-POO.pptx = Material\Unidade 3\Revisão-Prova-1-POO.pptx
 		Material\Unidade 3\Unidade 3 - Resumido.pptx = Material\Unidade 3\Unidade 3 - Resumido.pptx
 		Material\Unidade 3\Unidade 3.pdf = Material\Unidade 3\Unidade 3.pdf
@@ -52,6 +54,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.3 Exercícios", "3.3 Exercícios", "{B49BEB82-C20F-4549-B858-113F3BFC67D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionarioApp", "Projetos\Unidade 3\Exemplos\FuncionarioApp\FuncionarioApp.csproj", "{2E858BB9-1E5E-42DA-A00B-845A035A562B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Unidade 4", "4. Unidade 4", "{8F58FA84-2891-4233-B230-0F0D73102286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Conteúdo", "4.1 Conteúdo", "{FEDD8E82-6D5A-429A-B76C-FCD89D3FA839}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 4\Unidade 4 - Resumido.pptx = Material\Unidade 4\Unidade 4 - Resumido.pptx
+		Material\Unidade 4\Unidade 4.pdf = Material\Unidade 4\Unidade 4.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 Exemplos", "4.2 Exemplos", "{29610330-7166-419F-8B73-5C77D24061EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 Exercícios", "4.3 Exercícios", "{1860146B-5CBA-42CD-972A-74B7C086D07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade4.Exemplos", "Projetos\Unidade 4\Unidade4.Exemplos\Unidade4.Exemplos.csproj", "{BED31C8D-1461-434A-A1D3-63E772DD1FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +91,10 @@ Global
 		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E858BB9-1E5E-42DA-A00B-845A035A562B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED31C8D-1461-434A-A1D3-63E772DD1FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED31C8D-1461-434A-A1D3-63E772DD1FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED31C8D-1461-434A-A1D3-63E772DD1FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED31C8D-1461-434A-A1D3-63E772DD1FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,5 +113,9 @@ Global
 		{2DDACEAE-66A8-40D7-88F9-5752ECEAEC05} = {2CA83116-2431-495C-BBD3-596293843B05}
 		{B49BEB82-C20F-4549-B858-113F3BFC67D1} = {2CA83116-2431-495C-BBD3-596293843B05}
 		{2E858BB9-1E5E-42DA-A00B-845A035A562B} = {2DDACEAE-66A8-40D7-88F9-5752ECEAEC05}
+		{FEDD8E82-6D5A-429A-B76C-FCD89D3FA839} = {8F58FA84-2891-4233-B230-0F0D73102286}
+		{29610330-7166-419F-8B73-5C77D24061EF} = {8F58FA84-2891-4233-B230-0F0D73102286}
+		{1860146B-5CBA-42CD-972A-74B7C086D07C} = {8F58FA84-2891-4233-B230-0F0D73102286}
+		{BED31C8D-1461-434A-A1D3-63E772DD1FFF} = {29610330-7166-419F-8B73-5C77D24061EF}
 	EndGlobalSection
 EndGlobal
