@@ -1,12 +1,26 @@
-﻿namespace Unidade4.Exemplos
+﻿using System;
+
+namespace Unidade4.Exemplos
 {
     public class Movimentacao
     {
-        public double _valor;
+        private double _valor;
 
-        public string _tipo;
+        private string _tipo; //crédito e débito
 
-        public string _descricao;
-      
+        public Movimentacao(string tipo, double valor)
+        {
+            if (tipo != "Débito")
+                if (tipo != "Crédito")
+                    throw new InvalidOperationException("Tipo inválido");
+
+            _tipo = tipo;
+            _valor = valor;
+        }
+
+        public string ObtemDescricao()
+        {
+            return _tipo + " de R$ " + _valor + " reais";
+        }
     }
 }

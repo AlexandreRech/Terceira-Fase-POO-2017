@@ -5,21 +5,41 @@ namespace Unidade4.Exemplos
 {
     public class ContaCorrente
     {
+        #region Atributos Privados
         private int _numero;
 
-        private bool EhEspecial;
         private double _saldo;
         private double _limite;
         private Movimentacao[] _movimentacoes;
         private Cliente _titular;
+        #endregion
 
-        #region Método Constructor
+        public static int TotalContas;
 
-        public ContaCorrente(double limiteInicial, int quantidadeMaximaOperacoes)
+        #region Métodos Constructores
+
+        //Exemplo de como fica a chamada:
+        //Cliente novoCliente = new Cliente("Alexandre Rech")
+        //ContaCorrente novaConta = new ContaCorrente(novoCliente);
+
+        public ContaCorrente(Cliente cliente)
         {
+            _titular = cliente;
+            _limite = 300;
+            _movimentacoes = new Movimentacao[3];
+
+            TotalContas++;
+        }
+
+        public ContaCorrente(Cliente cliente, double limiteInicial, int quantidadeMaximaOperacoes)
+        {
+            _titular = cliente;
             _limite = limiteInicial;
             _movimentacoes = new Movimentacao[quantidadeMaximaOperacoes];
+
+            TotalContas++;
         }
+        
 
         #endregion 
 
@@ -27,7 +47,10 @@ namespace Unidade4.Exemplos
 
         public int Numero
         {
-            get { return _numero; }
+            get
+            {
+                return _numero;
+            }
             set
             {
                 if (value > 0)
@@ -44,38 +67,27 @@ namespace Unidade4.Exemplos
         #endregion
 
         #region Interface pública da classe
+        /// <summary>
+        /// Este método modifica o saldo da conta.
+        /// Não deve modificar o saldo, caso a quantia
+        /// seja maior que o Saldo + Limite        
+        /// </summary>
+        /// <param name="q">Quantia a ser sacada</param>
         public void Sacar(double quantia)
         {
             if (quantia < Saldo)
             {
-                double novoSaldo = _saldo - quantia;
+                _saldo -= quantia;
 
-                _saldo = novoSaldo;
-               
-                int posicaoVazia = PegarPosicaoVazia();
-
-                Movimentacao movimentacao = new Movimentacao();
-                movimentacao._tipo = "Débito";
-                movimentacao._valor = quantia;
-
-                _movimentacoes[posicaoVazia] = movimentacao;
-
+                RegistrarMovimentacao(quantia, "Débito");
             }
-        }
+        }        
 
         public void Depositar(double quantia)
         {
-            double novoSaldo = _saldo + quantia;
+            _saldo += quantia;
 
-            _saldo = novoSaldo;
-
-            int posicaoVazia = PegarPosicaoVazia();
-
-            Movimentacao movimentacao = new Movimentacao();
-            movimentacao._tipo = "Crédito";
-            movimentacao._valor = quantia;
-
-            _movimentacoes[posicaoVazia] = movimentacao;
+            RegistrarMovimentacao(quantia, "Crédito");
         }
 
         public void TransferirPara(ContaCorrente contaDestino, double quantia)
@@ -91,16 +103,17 @@ namespace Unidade4.Exemplos
 
             sb.AppendFormat("Nº da conta {0}", _numero).AppendLine();
 
-            //conversa de objetos
-            sb.AppendFormat("Nome do Titular {0}", _titular._nome).AppendLine();
+            //conversa dos objetos: _titular.NomeCompleto  
+            sb.AppendFormat("Nome Completo do Titular {0}", _titular.NomeCompleto).AppendLine();
 
             sb.AppendFormat("Movimentações: ").AppendLine();
 
             foreach (Movimentacao movimentacao in _movimentacoes)
             {
                 if (movimentacao != null)
-                {                    
-                    sb.AppendFormat(movimentacao._descricao).AppendLine();
+                {
+                    //conversa dos objetos: movimentacao.ObtemDescricao()                 
+                    sb.AppendFormat(movimentacao.ObtemDescricao()).AppendLine();
                 }
             }
 
@@ -123,6 +136,16 @@ namespace Unidade4.Exemplos
         }
 
         #endregion
+
+        #region Métodos Privados
+
+        private void RegistrarMovimentacao(double quantia, string tipoMovimentacao)
+        {
+            int posicaoVazia = PegarPosicaoVazia();
+
+            _movimentacoes[PegarPosicaoVazia()] = new Movimentacao(tipoMovimentacao, quantia);
+        }
+
         private int PegarPosicaoVazia()
         {
             for (int i = 0; i < _movimentacoes.Length; i++)
@@ -133,6 +156,7 @@ namespace Unidade4.Exemplos
 
             return -1;
         }
-       
+
+        #endregion
     }
 }
