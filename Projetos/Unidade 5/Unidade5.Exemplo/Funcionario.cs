@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace Unidade5.Exemplo
 {
-    public class Funcionario
+    public class Funcionario : Pessoa
     {
-        protected string _nome;
         private string _cpf;
-        private double _salario;
+        protected double _salario;
 
         public Funcionario() { }
 
-        public Funcionario(string nome)
+        public Funcionario(string nome, double salario)
         {
             if (nome == "")
                 _nome = "Nome não informado";
             else
                 _nome = nome;
+
+            if (salario > 0)
+                _salario = salario;
         }
 
         public string Nome
@@ -29,5 +31,22 @@ namespace Unidade5.Exemplo
                 return _nome;
             }
         }
+
+        public virtual double BuscarBonificacao()
+        {
+            return _salario * 10 / 100;
+        }
+
+        public override string ToString()
+        {
+            string informacoes = "";
+
+            informacoes += "Nome do Funcionário: " + _nome ;
+            informacoes += " - Salário do Funcionário: " + _salario ;
+
+            return informacoes;
+        }
+
+       
     }
 }

@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engenheiro.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="FuncionarioForm.cs">
       <SubType>Form</SubType>
@@ -53,6 +54,7 @@
       <DependentUpon>FuncionarioForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Gerente.cs" />
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FuncionarioForm.resx">
