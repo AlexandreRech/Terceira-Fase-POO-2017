@@ -75,6 +75,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 Exemplos", "5.2 Exemplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade5.Exemplo", "Projetos\Unidade 5\Unidade5.Exemplo\Unidade5.Exemplo.csproj", "{67FA1B9F-2161-4821-A321-B307C10885B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Unidade 6", "6. Unidade 6", "{E39D4816-8392-401A-B886-B544ED41AE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.1 Conteúdo", "6.1 Conteúdo", "{6DC815A3-2EB7-41CF-BC31-0DBE90D438A4}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 6\Unidade 6 - Resumido.pptx = Material\Unidade 6\Unidade 6 - Resumido.pptx
+		Material\Unidade 6\Unidade 6.pdf = Material\Unidade 6\Unidade 6.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.2 Exemplos", "6.2 Exemplos", "{3DDB78D0-312A-4C21-BCAF-10624F531518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade6.Exemplo", "Projetos\Unidade 6\Unidade6.Exemplo\Unidade6.Exemplo.csproj", "{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Unidade 7", "7. Unidade 7", "{18FC91EA-2A8A-421E-AD37-E7A7CF6C6AE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1 Conteúdo", "7.1 Conteúdo", "{A64494FA-B978-4154-B03B-D4835D8590CF}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 7\Unidade 7 - Resumido.pptx = Material\Unidade 7\Unidade 7 - Resumido.pptx
+		Material\Unidade 7\Unidade 7.pdf = Material\Unidade 7\Unidade 7.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.2 Exemplos", "7.2 Exemplos", "{DA4ACAFA-6A1C-4FF1-A0A7-4B64C422A029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade7.Exemplo", "Projetos\Unidade 7\Unidade7.Exemplo\Unidade7.Exemplo.csproj", "{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +129,14 @@ Global
 		{67FA1B9F-2161-4821-A321-B307C10885B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67FA1B9F-2161-4821-A321-B307C10885B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FA1B9F-2161-4821-A321-B307C10885B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,5 +159,11 @@ Global
 		{89EFB1E0-6597-4265-9E2A-F7A86A981BE5} = {C3561CAC-241C-4A89-A053-29C6CAB56F2E}
 		{A9E26F57-08CB-47DC-A831-183A34BEA6C0} = {C3561CAC-241C-4A89-A053-29C6CAB56F2E}
 		{67FA1B9F-2161-4821-A321-B307C10885B8} = {A9E26F57-08CB-47DC-A831-183A34BEA6C0}
+		{6DC815A3-2EB7-41CF-BC31-0DBE90D438A4} = {E39D4816-8392-401A-B886-B544ED41AE4F}
+		{3DDB78D0-312A-4C21-BCAF-10624F531518} = {E39D4816-8392-401A-B886-B544ED41AE4F}
+		{D6E38292-EAD3-4C44-A8A6-0F0CA6F0AC14} = {3DDB78D0-312A-4C21-BCAF-10624F531518}
+		{A64494FA-B978-4154-B03B-D4835D8590CF} = {18FC91EA-2A8A-421E-AD37-E7A7CF6C6AE4}
+		{DA4ACAFA-6A1C-4FF1-A0A7-4B64C422A029} = {18FC91EA-2A8A-421E-AD37-E7A7CF6C6AE4}
+		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9} = {DA4ACAFA-6A1C-4FF1-A0A7-4B64C422A029}
 	EndGlobalSection
 EndGlobal
