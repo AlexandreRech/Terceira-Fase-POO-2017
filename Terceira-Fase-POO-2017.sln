@@ -91,6 +91,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Unidade 7", "7. Unidade 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1 Conteúdo", "7.1 Conteúdo", "{A64494FA-B978-4154-B03B-D4835D8590CF}"
 	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 7\3 fase -Resolução Prova POO 2 -2017.pptx = Material\Unidade 7\3 fase -Resolução Prova POO 2 -2017.pptx
 		Material\Unidade 7\Unidade 7 - Resumido.pptx = Material\Unidade 7\Unidade 7 - Resumido.pptx
 		Material\Unidade 7\Unidade 7.pdf = Material\Unidade 7\Unidade 7.pdf
 	EndProjectSection
