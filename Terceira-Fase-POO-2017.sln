@@ -100,6 +100,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.2 Exemplos", "7.2 Exemplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade7.Exemplo", "Projetos\Unidade 7\Unidade7.Exemplo\Unidade7.Exemplo.csproj", "{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Unidade 8", "8. Unidade 8", "{6A8F7A62-398F-432E-8BD7-EC38DD1E92D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.1 Conteúdo", "8.1 Conteúdo", "{40F8DEB3-A312-4D01-9B8E-E3A9A5C11036}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 8\Exercicio Base - Collections e Windows Forms.pdf = Material\Unidade 8\Exercicio Base - Collections e Windows Forms.pdf
+		Material\Unidade 8\Unidade 8 - Collections.pdf = Material\Unidade 8\Unidade 8 - Collections.pdf
+		Material\Unidade 8\Unidade 8 - Generics1.pdf = Material\Unidade 8\Unidade 8 - Generics1.pdf
+		Material\Unidade 8\Unidade 8 - Generics2.pdf = Material\Unidade 8\Unidade 8 - Generics2.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.2 Exemplos", "8.2 Exemplos", "{0C3C6BEA-14C1-4E0C-A783-1522A2BB6F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaComprasWindowsApp", "Projetos\Unidade 8\ListaComprasWindowsApp\ListaComprasWindowsApp.csproj", "{C653F639-4886-42C9-8226-BA8F1EEE1E6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,6 +152,10 @@ Global
 		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C653F639-4886-42C9-8226-BA8F1EEE1E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C653F639-4886-42C9-8226-BA8F1EEE1E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C653F639-4886-42C9-8226-BA8F1EEE1E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C653F639-4886-42C9-8226-BA8F1EEE1E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,5 +184,8 @@ Global
 		{A64494FA-B978-4154-B03B-D4835D8590CF} = {18FC91EA-2A8A-421E-AD37-E7A7CF6C6AE4}
 		{DA4ACAFA-6A1C-4FF1-A0A7-4B64C422A029} = {18FC91EA-2A8A-421E-AD37-E7A7CF6C6AE4}
 		{52F1D23E-FE0A-4117-9C8B-721E95EEADB9} = {DA4ACAFA-6A1C-4FF1-A0A7-4B64C422A029}
+		{40F8DEB3-A312-4D01-9B8E-E3A9A5C11036} = {6A8F7A62-398F-432E-8BD7-EC38DD1E92D0}
+		{0C3C6BEA-14C1-4E0C-A783-1522A2BB6F09} = {6A8F7A62-398F-432E-8BD7-EC38DD1E92D0}
+		{C653F639-4886-42C9-8226-BA8F1EEE1E6F} = {0C3C6BEA-14C1-4E0C-A783-1522A2BB6F09}
 	EndGlobalSection
 EndGlobal
