@@ -2,24 +2,24 @@
 {
     public class ItemCompra
     {
-        private int _quantidade;
+        private decimal _quantidade;
 
         private Produto _produtoSelecionado;
 
-        public ItemCompra(Produto produto, int quantidade)
+        public ItemCompra(Produto produto, decimal quantidade)
         {
             _produtoSelecionado = produto;
             _quantidade = quantidade;
         }
 
-        public double ObterSubTotalEstimado()
+        public decimal ObterSubTotalEstimado()
         {            
-            return _produtoSelecionado.precoEstimado * this._quantidade;
+            return _produtoSelecionado.precoEstimado * _quantidade;
         }
 
         public override string ToString()
         {
-            return $"{_produtoSelecionado}: R$ {ObterSubTotalEstimado()}";
+            return $"{_quantidade} {_produtoSelecionado}: R$ {ObterSubTotalEstimado()}";
         }
     }
 }

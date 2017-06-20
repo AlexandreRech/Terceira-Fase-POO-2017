@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C653F639-4886-42C9-8226-BA8F1EEE1E6F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ListaComprasWindowsApp</RootNamespace>
     <AssemblyName>ListaComprasWindowsApp</AssemblyName>
@@ -50,10 +50,34 @@
   <ItemGroup>
     <Compile Include="ItemCompra.cs" />
     <Compile Include="ListaCompra.cs" />
+    <Compile Include="ListaCompraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCompraForm.Designer.cs">
+      <DependentUpon>ListaCompraForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mes.cs" />
+    <Compile Include="NovaListaComprasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaListaComprasForm.Designer.cs">
+      <DependentUpon>NovaListaComprasForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisualizacaoListaCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizacaoListaCompras.Designer.cs">
+      <DependentUpon>VisualizacaoListaCompras.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ListaCompraForm.resx">
+      <DependentUpon>ListaCompraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaListaComprasForm.resx">
+      <DependentUpon>NovaListaComprasForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +87,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VisualizacaoListaCompras.resx">
+      <DependentUpon>VisualizacaoListaCompras.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

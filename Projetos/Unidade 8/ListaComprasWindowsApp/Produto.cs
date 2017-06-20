@@ -2,7 +2,7 @@
 {
     public class Produto
     {
-        public Produto(string d, double pe, string um)
+        public Produto(string d, decimal pe, string um)
         {
             descricao = d;
             precoEstimado = pe;
@@ -11,13 +11,13 @@
 
         public string descricao;
 
-        public double precoEstimado;
+        public decimal precoEstimado;
 
         public string unidadeMedida;
 
         public override string ToString()
         {
-            return descricao;
+            return $" {unidadeMedida} - {descricao}";
         }
     }
 }

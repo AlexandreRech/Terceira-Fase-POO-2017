@@ -19,5 +19,15 @@ namespace ListaComprasWindowsApp
         {
             return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Nome);            
         }
+
+        //public override bool Equals(object obj)
+        //{
+        //    if (!(obj is Mes))
+        //        return false;
+
+        //    Mes mes = (Mes)obj;
+
+        //    return mes.Numero == Numero;
+        //}
     }
 }
