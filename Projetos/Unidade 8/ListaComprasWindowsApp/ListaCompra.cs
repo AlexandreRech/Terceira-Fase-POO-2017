@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ListaComprasWindowsApp
 {
     public class ListaCompra
     {
         public Mes Mes;
-
-        ArrayList _itens = new ArrayList();
+        
+        List<ItemCompra> _itens = new List<ItemCompra>();
       
         public ListaCompra(int numeroMes)
         {
@@ -35,10 +37,10 @@ namespace ListaComprasWindowsApp
 
         public void Anotar(ItemCompra item)
         {
-            _itens.Add(item);
+            _itens.Add(item);           
         }
 
-        public ArrayList SelecionarItems()
+        public List<ItemCompra> SelecionarItems()
         {
             return _itens;
         }

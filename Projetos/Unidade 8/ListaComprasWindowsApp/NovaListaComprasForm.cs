@@ -56,7 +56,7 @@ namespace ListaComprasWindowsApp
         {
             Mes mesSelecionado = (Mes)cmbMes.SelectedItem;
 
-            _novaLista = new ListaCompra(1);
+            _novaLista = new ListaCompra(mesSelecionado);
 
             foreach (ItemCompra item in listItensCompra.Items)
             {

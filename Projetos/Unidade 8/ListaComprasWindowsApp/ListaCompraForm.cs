@@ -14,7 +14,7 @@ namespace ListaComprasWindowsApp
 {
     public partial class ListaCompraForm : Form
     {
-        ArrayList _listas = new ArrayList();
+        List<ListaCompra> _listas = new List<ListaCompra>();
 
         public ListaCompraForm()
         {
@@ -35,14 +35,14 @@ namespace ListaComprasWindowsApp
 
         private void AtualizarListasCompras()
         {
+            listListaCompras.Items.Clear();
+
             foreach (ListaCompra lista in _listas)
             {
                 if(lista != null)
                     listListaCompras.Items.Add(lista);
             }
-        }
-
-      
+        }     
 
         private void btnVizualizarListaCompras_Click(object sender, EventArgs e)
         {
